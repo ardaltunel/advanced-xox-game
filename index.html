@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XOX - Arda Altunel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="status-top">
+            <p>X Kazandı: <span id="xWins">0</span></p>
+            <p>O Kazandı: <span id="oWins">0</span></p>
+        </div>
+        <div id="game">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <div id="controls">
+            <button id="startBot">Bot ile Oyna</button>
+            <button id="restartButton">Oyunu Yeniden Başlat</button>
+        </div>
+        <div id="status-bottom">
+            <p id="turnMessage"></p>
+            <p id="winnerMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
